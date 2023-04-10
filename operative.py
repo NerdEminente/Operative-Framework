@@ -5,4 +5,5 @@ from core import operative
 
 if __name__ == "__main__":
         sys.stdout.write("\x1b]2;Operative Framework\x07")
-	operative.user_put()
+	expand -t 4 operative.py > arquivo_corrigido.py
+
